@@ -1,6 +1,6 @@
 # Technical Report
 
-*Cozmo AI Case Study. Max 6 pages — engineering over exposition.*
+*Engineering over exposition.*
 
 ## 1. Architecture
 

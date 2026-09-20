@@ -1,14 +1,12 @@
-# Cozmo AI Case Study
+# RoomCapture Pipeline
 
 Phone capture (Photos / Video / LiDAR) -> dimensioned floor plan + damage
 report. Runs entirely on-device/locally — no backend server, no API keys,
 no external model calls at runtime. This README is a complete, literal,
 step-by-step walkthrough of everything needed to go from a bare machine
-to a full run, including the physical phone-capture steps — the same
-steps to follow for the live walk-in test.
+to a full run, including the physical phone-capture steps.
 
-Background docs: `documents/Cozmo-AI-Case-Study.pdf` (the assessment),
-`CLAUDE.md` (running project log), `docs/compliance_matrix.md`
+Background docs: `CLAUDE.md` (running project log), `docs/compliance_matrix.md`
 (requirement-by-requirement status).
 
 ---
@@ -26,7 +24,7 @@ Background docs: `documents/Cozmo-AI-Case-Study.pdf` (the assessment),
 ### A2. Clone the repo
 ```bash
 git clone <this repository's URL>
-cd Cozmo-AI-Case-Study
+cd RoomCapture-Pipeline
 ```
 
 ### A3. Create a virtual environment and install

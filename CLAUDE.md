@@ -1,7 +1,7 @@
-# Cozmo AI Case Study — Project Memory
+# RoomCapture Pipeline — Project Memory
 
 ## Goal
-Build an end-to-end product: phone capture (photos/video/LiDAR) → AI pipeline → dimensioned floor plan + damage report, provably accurate vs. laser ground truth, scored on a live "walk-in test" against a never-seen room. Full assessment: `documents/Cozmo-AI-Case-Study.pdf`. 48-hour take-home for Cozmo AI.
+Build an end-to-end product: phone capture (photos/video/LiDAR) → AI pipeline → dimensioned floor plan + damage report, provably accurate vs. laser ground truth, scored on a live "walk-in test" against a never-seen room.
 
 ## Capture route: Route 2 (stock protocol)
 Chosen over building a custom iOS app — engineering time goes to the pipeline (65%+ of score: walk-in test, fix loop, benchmark) instead of capture UI/TestFlight plumbing.
